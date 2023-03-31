@@ -1,4 +1,4 @@
-import {Link, redirect} from "react-router-dom";
+import {Link} from "react-router-dom";
 // @ts-ignore
 import styles from './WelcomePage.module.css';
 import {useDispatch} from "react-redux";
