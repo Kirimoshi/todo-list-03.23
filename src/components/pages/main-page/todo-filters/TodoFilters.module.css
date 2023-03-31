@@ -1,0 +1,23 @@
+.btnFilterGroup {
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px auto;
+    border: 2px solid rgb(63, 78, 240);
+    border-radius: 5px;
+}
+.btn {
+    padding: 10px;
+    border: none;
+    background: #223;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+.btnActive {
+    composes: btn;
+    background: rgb(63, 78, 240);
+}
+.btnActive:hover {
+    background: rgb(85, 99, 254);
+}

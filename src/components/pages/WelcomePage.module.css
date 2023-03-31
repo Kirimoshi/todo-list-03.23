@@ -1,0 +1,39 @@
+.app {
+    composes: app from './main-page/MainPage.module.css';
+}
+.appWrapper {
+    composes: appWrapper from './main-page/MainPage.module.css';
+}
+.appHeader {
+    margin-bottom: 10px;
+}
+.appInputsBox {
+    composes: appInputsBox from './main-page/MainPage.module.css';
+}
+.form {
+    composes: form from './main-page/todo-add-form/TodoAddForm.module.css';
+}
+.formControl {
+    composes: formControl from './main-page/todo-add-form/TodoAddForm.module.css';
+}
+.formInput {
+    composes: formInput from './main-page/todo-add-form/TodoAddForm.module.css';
+}
+.formLink {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    text-decoration-line: none;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(63, 78, 240);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .3s ease-out;
+}
+.formLink:hover {
+    background: rgb(85, 99, 254);
+}

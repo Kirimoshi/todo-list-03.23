@@ -1,0 +1,39 @@
+.todoListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: hsl(240, 20%, 27%);
+    transition: background .3s ease-out;
+}
+.todoListItem:hover {
+    background: hsl(240, 20%, 37%);
+}
+.todoListLabel {
+    display: flex;
+    align-items: center;
+}
+.todoListCheckbox {
+    display: none;
+}
+.todoListBtn {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    border: none;
+    background: transparent;
+    outline: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+.todoListEditBtn {
+    composes: todoListBtn;
+    color: rgb(239, 172, 48);
+    margin-right: 10px;
+}
+.todoListDeleteBtn {
+    composes: todoListBtn;
+    color: rgb(203, 19, 19);
+}

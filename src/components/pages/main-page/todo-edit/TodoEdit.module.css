@@ -1,0 +1,18 @@
+.form {
+    composes: form from '../todo-add-form/TodoAddForm.module.css';
+}
+.formControl {
+    composes: formControl from '../todo-add-form/TodoAddForm.module.css';
+}
+.formInput {
+    composes: formInput from '../todo-add-form/TodoAddForm.module.css';
+}
+.formBtn {
+    composes: formBtn from '../todo-add-form/TodoAddForm.module.css';
+}
+.formBtn:hover {
+    background: rgb(85, 99, 254);
+}
+.formErrorText {
+    composes: formErrorText from '../todo-add-form/TodoAddForm.module.css';
+}
