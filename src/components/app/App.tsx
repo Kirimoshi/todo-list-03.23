@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 
 import './App.css';
 import { WelcomePage, MainPage } from '../pages';
@@ -7,12 +7,12 @@ import { WelcomePage, MainPage } from '../pages';
 const App = () => {
 
   return (
-      <Router>
+      <HashRouter>
           <Routes>
               <Route path='/' element={ <WelcomePage/> } />
               <Route path='/todolist' element={ <MainPage/> } />
           </Routes>
-      </Router>
+      </HashRouter>
   );
 }
 
